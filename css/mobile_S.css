@@ -1,0 +1,29 @@
+@media only screen and (max-width: 320px) {
+    header .navbar-brand {
+        padding-left: 0.25rem;
+    }
+
+    header .row .col-md-5 img {
+        padding-right: 4.3rem;
+        width: 120%;
+        margin: 0.2rem;
+    }
+
+    .cards div {
+        padding-left: 0.1rem;
+        margin: 0.2rem;
+    }
+
+    .cards .card img {
+        padding-right: 1.10rem;
+    }
+
+
+    footer img {
+        width: 10%;
+    }
+
+    footer .text-muted {
+        padding-left: 1rem;
+    }
+}
