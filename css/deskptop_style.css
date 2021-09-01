@@ -94,8 +94,6 @@ header .container .col-md-7 h1 {
     background: white;
 }
 
-
-
 .tournments {
     background: var(--bggradient_1);
     padding-bottom: 1rem;
@@ -120,14 +118,6 @@ header .container .col-md-7 h1 {
 
 }
 
-
-
-
-
-
-
-
-
 footer {
     background: black;
     overflow-x: hidden;
@@ -138,9 +128,3 @@ footer {
 footer img {
     width: 5%;
 }
-
-
-
-
-
-/*   I am pasting from here */
