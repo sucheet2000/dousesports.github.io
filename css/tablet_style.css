@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 0.05rem;
+
+    }
+
+    .cards div {
+        padding-left: 0.15rem;
+        margin: 0.2rem;
+    }
+
+    .cards .card img {
+        padding-left: 1rem;
+
+    }
+
+    footer img {
+        width: 5%;
+    }
+}
