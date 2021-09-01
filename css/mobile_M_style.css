@@ -4,8 +4,17 @@
     }
 
     header .row .col-md-5 img {
-        padding-right: 4.70rem;
+        padding-right: 4.65rem;
         width: 120%;
+    }
+
+    .cards div {
+        padding-left: 0.1rem;
+        margin: 0.2rem;
+    }
+
+    .cards .card img {
+        padding-left: 1.25rem;
     }
 
     footer img {
