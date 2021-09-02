@@ -1,6 +1,7 @@
 @media only screen and (max-width: 360px) {
     header .navbar-brand {
         padding-top: 0.5rem;
+        padding-right: 2rem;
 
     }
 
@@ -10,16 +11,27 @@
         margin: 0.2rem;
     }
 
+    header .row .col-med-7 h6 {
+        font-size: 50px;
+    }
+
+    header .row .col-med-7 h1 {
+        padding-top: 5rem;
+        font-size: 20px;
+    }
+
+    header .row .col-med-7 p {
+        font-size: 20px;
+    }
+
     .cards div {
-        padding-left: 0.15rem;
+        padding-right: 0.30rem;
         margin: 0.2rem;
     }
 
     .cards .card img {
-        padding-left: 1rem;
-
+        padding-right: 1rem;
     }
-
 
     footer img {
         width: 10%;
