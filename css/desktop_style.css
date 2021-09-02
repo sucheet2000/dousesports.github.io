@@ -229,3 +229,11 @@ footer {
 footer img {
     width: 5%;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
