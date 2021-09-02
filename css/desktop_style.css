@@ -51,8 +51,16 @@ header {
     display: block;
 }
 
+header .nav-item:last-child {
+    padding-right: 0.5em;
+}
+
 header .nav-item {
     padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 3rem;
 }
 
 header .navbar-brand {
