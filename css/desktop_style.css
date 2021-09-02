@@ -17,8 +17,8 @@ section {
     --p2p: 'Press Start 2P', cursive;
     --special: 'Special Elite', cursive;
     --light-black: #2e2c2caf;
-    --bggradient: linear-gradient(to bottom, #141414 0%, #253354 100%);
-    --bggradient_1: linear-gradient(to top, #141414 0%, #253354 100%);
+    --bggradient: #000000;
+    --bggradient_1: linear-gradient(to bottom, #000000 60%, #ede5da 154%);
     --light-gray: #d3d3d379;
 }
 
@@ -87,8 +87,8 @@ header .row .col-md-7 {
 }
 
 header .row h1 {
-    font-size: 50px;
-    font-family: var(--odibee);
+    font-size: 40px;
+    font-family: var(--oswald);
     padding-top: 4rem;
     background: -webkit-linear-gradient(#141414, #ccccff, #141414);
     -webkit-background-clip: text;
@@ -96,16 +96,16 @@ header .row h1 {
 }
 
 header .row h6 {
-    font-size: 50px;
-    font-family: var(--p2p);
+    font-size: 100px;
+    font-family: var(--oswald);
     background: -webkit-linear-gradient(#141414, #ccccff, #141414);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 header .row p {
-    font-size: 50px;
-    font-family: var(--blackops);
+    font-size: 45px;
+    font-family: var(--oswald);
     background: -webkit-linear-gradient(#141414, #ccccff, #141414);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -113,9 +113,10 @@ header .row p {
 
 header .row .col-md-5 img {
     display: block;
+    padding-bottom: 2rem;
     margin-left: 28.5rem;
     margin-right: 0rem;
-    width: 50%;
+    width: 46%;
 }
 
 header .container .col-md-7 h6 {
@@ -135,19 +136,21 @@ header .container .col-md-7 h1 {
 }
 
 .tournments {
-    background: var(--bggradient_1);
+    background: var(--bggradient);
     padding-bottom: 1.5rem;
 }
 
 .tournments h1 {
     font-size: 50px;
-    font-family: var(--special);
+    font-family: var(--oswald);
     background: -webkit-linear-gradient(#141414, #ccccff, #141414);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .tournments .cards .card {
+    border: bisque;
+    background: var(--bggradient_1);
     margin: 0.5vmin;
 }
 
@@ -161,7 +164,8 @@ header .container .col-md-7 h1 {
 }
 
 .cards .card {
-    font-family: var(--oswald);
+    color: whitesmoke;
+    font-family: var(--blackops);
     background-color: #e9f5db;
 }
 
